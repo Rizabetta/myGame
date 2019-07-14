@@ -8,4 +8,3 @@ startButton.addEventListener('click', () => {
 	Game.gameStart();
 })
 
-console.log('hello')
