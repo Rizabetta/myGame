@@ -18,7 +18,7 @@ class Game {
 				console.log(Game.gameDuration);
 			}
 		}, 1000)
-		
+
 		Game.gameLoop();
 	}
 
@@ -31,3 +31,13 @@ class Game {
 	}
 }
 
+
+const arrayOfClickButtons = [];
+
+window.addEventListener('keydown', () => {
+	arrayOfClickButtons[event.keyCode] = 1;
+})
+
+window.addEventListener('keyup', () => {
+	arrayOfClickButtons[event.keyCode] = 0;
+})
