@@ -5,4 +5,7 @@ const startButton = document.querySelector('.start-button');
 startButton.addEventListener('click', () => {
 	event.preventDefault();
 	menu.style.display = 'none';
+	Game.gameStart();
 })
+
+console.log('hello')
